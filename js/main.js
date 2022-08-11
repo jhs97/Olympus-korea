@@ -78,8 +78,7 @@ $(function () {
     $("#gnb .depth1 > li").hover(
       // mouseover
       function () {
-        $(".depth2") // 여기만 수정하면 됨 this or 선택자
-          .addClass("on");
+        $(".depth2").addClass("on");
       },
       // mouseout
       function () {
