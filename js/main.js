@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
@@ -69,12 +68,7 @@ $(function () {
     $(".family-site-nav > ul").toggleClass("on");
   });
 });
-=======
-/**$(function () {
-  $("#h-container .h-col").onmouseover(function () {
-    $("#h-container .h-title").addClass("on");
-  });
-});*/
+
 $(function () {
   /** 2가지 유형
    * 1. 현재 하위 뎁스만 보임
@@ -97,4 +91,3 @@ $(function () {
     $(".family-site-nav > ul").toggleClass("on");
   });
 });
->>>>>>> f7e7d4182cf84c3c91f1141691542dd482439da6
