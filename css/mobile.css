@@ -40,6 +40,7 @@
   height: 1544;
   z-index: 999;
   display: none;
+  padding-bottom: 60px;
 }
 
 #gnb.on {
@@ -354,9 +355,7 @@
 }
 
 /* intro */
-#b_main-visual {
-  padding-top: 60px;
-}
+
 #b_main-visual .container {
   background-image: url(/images/intro/banner.png);
   width: 100%;

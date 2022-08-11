@@ -4,6 +4,10 @@ body {
   font-size: 20px;
 }
 
+main {
+  padding-top: 90px;
+}
+
 /* header */
 header {
   background: #fff;
