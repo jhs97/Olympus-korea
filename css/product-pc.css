@@ -48,6 +48,7 @@
 }
 .h-category ul li a:hover {
   color: var(--main-color1);
+  /* border-bottom: 5px solid var(--main-color2); */
   font-weight: 700;
 }
 
@@ -60,17 +61,19 @@
   gap: 20px;
   justify-content: left;
   align-items: center;
+  margin-bottom: 140px;
 }
 
 #h-container .h-col {
   /* width: 446px;
   height: 446px; */
-  width: calc(33% - 8px);
+  width: calc(33% - 10px);
   outline: 1px solid var(--main-color1);
   outline-style: inset;
   overflow: hidden;
   position: relative;
   text-align: center;
+  
 }
 
 #h-container .h-col a {

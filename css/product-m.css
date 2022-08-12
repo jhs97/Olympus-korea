@@ -44,6 +44,7 @@
 .h-category ul li a:hover {
   color: var(--main-color1);
   font-weight: 700;
+  border-bottom: 3px solid var(--main-color2);
 }
 
 @media screen and (max-width: 767px) {
