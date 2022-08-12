@@ -39,7 +39,8 @@ main {
   /* background: pink; */
   display: flex;
   padding-top: 20px;
-  margin-left: 350px;
+  /* margin-left: 350px; */
+  margin: 0 auto;
 }
 
 #gnb .depth1 {
