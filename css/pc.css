@@ -16,6 +16,7 @@ main {
   width: 100%;
   position: fixed;
   z-index: 999;
+  padding-bottom: 5px;
   border-bottom: 1px solid #999;
 }
 
@@ -38,9 +39,13 @@ main {
   position: relative;
   /* background: pink; */
   display: flex;
-  padding-top: 20px;
+  padding-top: 25px;
   /* margin-left: 350px; */
   margin: 0 auto;
+}
+
+#gnb h1 {
+  display: none;
 }
 
 #gnb .depth1 {
@@ -54,11 +59,7 @@ main {
   /* outline: 1px solid red; */
 }
 
-#gnb .depth1 > li > p {
-  display: none;
-}
-
-#gnb .depth1 > li > .title-menu {
+#gnb .depth1 > .title-menu {
   width: 170px;
   /* outline: 1px solid #888; */
   margin-bottom: 20px;
@@ -67,15 +68,11 @@ main {
   font-size: 20px;
 }
 
-#gnb .depth1 > li > .title-menu > a {
-  width: 30px;
-}
-
-#gnb .depth1 > li > .title-menu:hover > a {
+#gnb .depth1 > .title-menu:hover > a {
   color: var(--main-color1);
 }
 
-#gnb .depth1 > li > .title-menu > .bi {
+#gnb .depth1 > .title-menu > a > .bi {
   display: none;
 }
 
