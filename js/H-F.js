@@ -1,5 +1,4 @@
 $(function () {
-
   $(function () {
     /** 2가지 유형
      * 1. 현재 하위 뎁스만 보임
@@ -17,59 +16,42 @@ $(function () {
       }
     );
   });
-  
 
-  $('#family-site-btn').click(
-    function () {
-      $('.family-site-nav > ul')
-        .toggleClass('on')
+  $("#family-site-btn").click(function () {
+    $(".family-site-nav > ul").toggleClass("on");
+  });
+
+  $("#toggle-btn").click(function () {
+    $("#gnb").addClass("on");
+  });
+
+  $("#close-btn").click(function () {
+    $("#gnb").removeClass("on");
+  });
+}); // $headerfooter
+
+$(function () {
+  const breakPoint = 768;
+  $(window).on("resize", function () {
+    let w = window.innerWidth;
+    console.log(w);
+
+    if (w >= breakPoint) {
+      console.log("min-width: 768px");
+    } else {
+      console.log("max-width: 767px");
+      $("#gnb .depth1 > li").click(function () {
+        $(this).children(".depth2").toggleClass("on");
+        console.log("toggle");
+      });
     }
-  );
-
-  $("#toggle-btn").click(function(){
-		$("#gnb").addClass("on");
-	});
-
-  $("#close-btn").click(function(){
-		$("#gnb").removeClass("on");
-	});
-
-  // $('#gnb .depth1 > li:nth-child(3)').click(
-  //   function () {
-  //     $('#gnb .depth1 li:nth-child(3) .depth2')
-  //       .toggleClass('on')
-  //   }
-  // );
-
-  // $('#gnb .depth1 > li:nth-child(4)').click(
-  //   function () {
-  //     $('#gnb .depth1 li:nth-child(4) .depth2')
-  //       .toggleClass('on')
-  //   }
-  // );
-
-  // $('#gnb .depth1 > li:nth-child(5)').click(
-  //   function () {
-  //     $('#gnb .depth1 li:nth-child(5) .depth2')
-  //       .toggleClass('on')
-  //   }
-  // );
-
-  // $('#gnb .depth1 > li:nth-child(6)').click(
-  //   function () {
-  //     $('#gnb .depth1 li:nth-child(6) .depth2')
-  //       .toggleClass('on')
-  //   }
-  // );
-
-  // $('#gnb .depth1 > li:nth-child(7)').click(
-  //   function () {
-  //     $('#gnb .depth1 li:nth-child(7) .depth2')
-  //       .toggleClass('on')
-  //   }
-  // );
-
-
-
-
+  });
 }); // $
+
+/*
+$("nav .depth1 > li").click(function () {
+  $(this).next(".depth2 > li").stop().slideToggle(300);
+  $(this).toggleClass("on").siblings().removeClass("on");
+  $(this).next(".depth2 > li").siblings(".depth2 > li").slideUp(300);
+  // 1개씩 펼치기
+}); 아코디언메뉴*/
