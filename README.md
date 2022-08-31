@@ -24,6 +24,9 @@
 - Swiper
 
 ## 대표사진
+![프리뷰 모바일](https://user-images.githubusercontent.com/105402450/187575192-884e0787-c3a7-4a96-b706-30c746c2cfab.PNG)
+![프리뷰 웹](https://user-images.githubusercontent.com/105402450/187575193-14626423-2a0d-48f5-bba5-6b26a357374a.PNG)
+
 
 ## 홈페이지 링크
 https://jhs97.github.io/team-Olympus-korea/
