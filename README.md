@@ -9,7 +9,6 @@
 - jQeury
 - Bootstrapicon
 - Swiper
-- AOS
 
 ## 대표사진
 
