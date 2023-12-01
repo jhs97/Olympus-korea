@@ -30,3 +30,8 @@
 
 ## 홈페이지 링크
 https://jhs97.github.io/team-Olympus-korea/
+
+
+##수정사항
+회사소개 페이지 웹버전 간격 수정
+링크클릭 시 새창으로 뜨게 수정하기
